@@ -37,7 +37,7 @@ namespace LevelTest_1
             * 3. 플레이어가 수를 입력 하면 컴퓨터는 그 수가 큰지, 작은지, 정답인지 알려준다.
             * 4. 10번의 기회 소진시 게임을 종료할껀지 재시작 할껀지 선택 할수 있다. 
             */
-            UpDownGame.UpDownGame.GameStart();
+            //UpDownGame.UpDownGame.GameStart();
 
             /* 슬라이드 퍼즐 만들기
             * 1. 5x5 판을 생성하고 랜덤한 숫자를 배치한다.
@@ -45,9 +45,15 @@ namespace LevelTest_1
             * 3. 단, 밖으로 벗어날 수 없다.
             * 4. 아래 예시는 0이 움직이는 것으로 가정한다.
             */
-            SlideGame.SlideGame.GameStart();
+            //SlideGame.SlideGame.GameStart();
 
-
+            /* 빙고게임 만들기
+            * 1. 5x5 판을 생성하고 랜덤한 숫자를 배치한다.
+            * 2. 원하는 숫자 입력시 해당 숫자는 특수기호로 바꾼다.
+            * 3. 생성한 숫자외의 다른 수를 입력할 수 없다.(예외처리)
+            * 4. 종료 조건은 빙고 3줄 이상시 종료한다.
+            */
+            BingoGame.BingoGame.GameStart();
 
         }
     }
