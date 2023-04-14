@@ -14,6 +14,10 @@ namespace LevelTest_1
             Solution_2 solution_2 = new Solution_2();
             Console.WriteLine(solution_2.Solution("안녕하세요. 나는 서울에 사는 홍길동이라고 합니다."));
 
+            // 3. 주어진 숫자가 소수인지 판별하는 solution을 완성하라.
+            Solution_3 solution_3 = new Solution_3();
+            Console.WriteLine(solution_3.Solution(5));
+
 
 
         }
