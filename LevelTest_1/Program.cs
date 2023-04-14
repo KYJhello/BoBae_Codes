@@ -10,6 +10,11 @@ namespace LevelTest_1
             Solution_1 solution_1 = new Solution_1();
             Console.WriteLine(solution_1.Solution("pineapple is yummy", "apple"));
             
+            // 2. 문자열을 입력받으면 단어의 갯수를 출력하기
+            Solution_2 solution_2 = new Solution_2();
+            Console.WriteLine(solution_2.Solution("안녕하세요. 나는 서울에 사는 홍길동이라고 합니다."));
+
+
 
         }
     }
