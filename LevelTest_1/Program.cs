@@ -20,8 +20,16 @@ namespace LevelTest_1
 
             // 4. 사용자가 입력한 양의 정수의 각 자리수의 합을 구하는 Solution 을 완성하라.
             Solution_4 solution_4 = new Solution_4();
-            Console.WriteLine(solution_4.Solution(1234)); 
+            Console.WriteLine(solution_4.Solution(1234));
 
+            // 5. k개의 정렬된 배열에서 공통항목을 찾는 Solution을 완성하라.단, 중복은 허용하지 않는다..
+            Solution_5 solution_5 = new Solution_5();
+            int[] arr1 = { 1, 5, 5, 10 };
+            int[] arr2 = { 3, 4, 5, 5, 10 };
+            int[] arr3 = { 5, 5, 10, 20 };
+            int[] commonItems = solution_5.Solution(arr1, arr2, arr3);
+            foreach(int item in commonItems) Console.Write($"{item}\t");
+            Console.WriteLine();
 
 
         }
