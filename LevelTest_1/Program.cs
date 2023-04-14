@@ -18,6 +18,10 @@ namespace LevelTest_1
             Solution_3 solution_3 = new Solution_3();
             Console.WriteLine(solution_3.Solution(5));
 
+            // 4. 사용자가 입력한 양의 정수의 각 자리수의 합을 구하는 Solution 을 완성하라.
+            Solution_4 solution_4 = new Solution_4();
+            Console.WriteLine(solution_4.Solution(1234)); 
+
 
 
         }
