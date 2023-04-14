@@ -31,6 +31,14 @@ namespace LevelTest_1
             foreach(int item in commonItems) Console.Write($"{item}\t");
             Console.WriteLine();
 
+            /* Up & Down 게임 만들기
+            * 1. 컴퓨터는 0~999 중에 랜덤한 숫자를 뽑는다.
+            * 2. 유저는 10번의 기회가 있다.
+            * 3. 플레이어가 수를 입력 하면 컴퓨터는 그 수가 큰지, 작은지, 정답인지 알려준다.
+            * 4. 10번의 기회 소진시 게임을 종료할껀지 재시작 할껀지 선택 할수 있다. 
+            */
+            UpDownGame.UpDownGame.GameStart();
+
 
         }
     }
